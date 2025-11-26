@@ -3,7 +3,7 @@ use universitymanagement;
 create table login(username varchar (30) , password varchar(30));
 select * from login;
 insert into login values('prakhar','12345');
-insert into login values('alice','123');
+
 
 create table teacher(name varchar(40),fname varchar(40), empID varchar(40) , dob varchar(40), address varchar(40), phone varchar(40), email varchar(40), class_X varchar(40), class_XII varchar(40), aadhar varchar(40), education varchar(40), department varchar(40));
 select * from teacher;
@@ -41,4 +41,5 @@ insert into fee values("Bcom", "32000", "20000","20000","20000","20000","20000",
 insert into fee values("Mcom", "46000", "30000","30000","30000","","","","");
 
 create table feecollege(rollno varchar(20), course varchar(20), branch varchar(20), semester varchar(20), total varchar(20));
+
 select * from feecollege;
